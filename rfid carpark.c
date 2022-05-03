@@ -14,7 +14,6 @@ void delay();
 void mdelay();
 unsigned char rfid[12] , v1;
 void main(){
-	print
 	lcddis("RFID BASED CAR");
 	lcdcmd(0xc0);
 	drp=drn=0;
